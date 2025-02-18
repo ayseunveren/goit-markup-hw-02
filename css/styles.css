@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     color: #434455;
     font-family: "Roboto", sans-serif;
 }
@@ -104,7 +104,7 @@ body {
     color: #434455;
 }
 .footer {
-    color: #2e2f42;
+    background-color: #2e2f42;
 }
 .footer-logo {
     font-family: "Raleway";
