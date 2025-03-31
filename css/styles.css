@@ -1,0 +1,68 @@
+body {
+    font-family:Roboto, sans-serif;
+    color:rgba(46, 47, 66, 1);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    font-weight: 400;
+}
+/* bağlantı ve butonlar */
+
+.button {
+    cursor: pointer;
+    background: rgba(77, 90, 229, 1);
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 4%;
+}
+.button:hover {
+    background: rgba(64, 75, 191, 1);
+}
+.nav {
+    color:rgba(46, 47, 66, 1);
+}
+.nav:hover, .nav:active {
+    color: rgba(64, 75, 191, 1);
+}
+.address-link {
+    color:rgba(67, 68, 85, 1);
+}
+.address-link:hover {
+    color:rgba(64, 75, 191, 1);
+}
+.logo-header, .logo-footer {
+    color:rgba(77, 90, 229, 1);
+    font-family: Raleway, sans-serif;
+}
+.logo-header-span {
+    color:rgba(46, 47, 66, 1);
+}
+.logo-footer-span {
+    color:rgba(244, 244, 253, 1);
+}
+
+/* h1, h2 ve h3 */
+.headline1 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+.headline2 {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2%;
+    line-height: 40px;
+}
+.headline3-studio, .headline3-ourteam, .headline3-ourportfolio {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+    line-height: 24px;
+}
+
+/* sectionlar */
+
+.section1 {
+    background-color: rgba(46, 47, 66, 1);
+}
