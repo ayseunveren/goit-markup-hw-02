@@ -1,5 +1,6 @@
 body {
-    font-family:Roboto, sans-serif;
+    font-family:"Roboto", sans-serif;
+    background-color:#ffffff;
     color:rgba(46, 47, 66, 1);
     font-size: 16px;
     line-height: 1.5;
@@ -13,25 +14,33 @@ body {
     background: rgba(77, 90, 229, 1);
     color: rgba(255, 255, 255, 1);
     letter-spacing: 4%;
+    font-weight: 500;
 }
 .button:hover {
     background: rgba(64, 75, 191, 1);
 }
 .nav {
     color:rgba(46, 47, 66, 1);
+    font-weight: 500;
+    line-height: 1.5;
 }
-.nav:hover, .nav:active {
+.nav:hover, .nav:active, nav:focus {
     color: rgba(64, 75, 191, 1);
 }
 .address-link {
     color:rgba(67, 68, 85, 1);
 }
-.address-link:hover {
+.address-link:hover, .address-link:focus {
     color:rgba(64, 75, 191, 1);
 }
 .logo-header, .logo-footer {
     color:rgba(77, 90, 229, 1);
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
 }
 .logo-header-span {
     color:rgba(46, 47, 66, 1);
@@ -40,29 +49,39 @@ body {
     color:rgba(244, 244, 253, 1);
 }
 
-/* h1, h2 ve h3 */
+/* h1, h2, h3 ve p */
 .headline1 {
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 2%;
-    line-height: 60px;
+    line-height: 1.07;
+    text-align: center;
 }
 .headline2 {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 2%;
-    line-height: 40px;
+    line-height: 1.1;
 }
 .headline3-studio, .headline3-ourteam, .headline3-ourportfolio {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 2%;
-    line-height: 24px;
+    line-height: 1.2;
+    color: rgba(46, 47, 66, 1);
 }
-
+.text-portfolio, .text-ourteam, .text-ourportfolio {
+    color: rgba(67, 68, 85, 1);
+}
 /* sectionlar */
 
 .section1 {
+    background-color: rgba(46, 47, 66, 1);
+}
+.section3 {
+    background-color: rgba(244, 244, 253, 1);
+}
+.footer {
     background-color: rgba(46, 47, 66, 1);
 }
