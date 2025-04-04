@@ -45,6 +45,7 @@ header a {
     letter-spacing: 0.03em;
     line-height: 1.17;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .logo-header-span {
     color:rgba(46, 47, 66, 1);
@@ -96,7 +97,7 @@ header a {
 }
 
 /* ul, li, div */
-.section2 > ul, .section3 > ul, .section4 > ul {
+.section2 > ul, .section3 > ul, .section4 > ul, .header ul {
     list-style-type: none;
 }
 .section3 div {
